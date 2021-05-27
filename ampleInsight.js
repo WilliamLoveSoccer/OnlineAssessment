@@ -76,6 +76,6 @@ function globExpansion(input) {
 
 // I'm assuming that all the curly braces in string are paired.
 // If that is not the case, I will need to apply stack to check the "paired brace".
-let input = "{a,b}";
+let input = "hi.{he,she}.{foo,bar}@gamil.com";
 let output = globExpansion(input);
 console.log(output);
